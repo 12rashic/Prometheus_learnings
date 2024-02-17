@@ -21,7 +21,10 @@ Also extending the functionality for "Alerting Mechanism" when working in integr
     
             helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
             helm repo update
-          
+
+  ![ScreenShot]([https://(https://github.com/12rashic/Prometheus_learnings/blob/main/helm_01.png)https://github.com/12rashic/Prometheus_learnings/blob/main/helm_01.png]) 
+
+  
   
 
 
