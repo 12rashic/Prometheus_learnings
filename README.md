@@ -67,7 +67,20 @@ Also extending the functionality for "Alerting Mechanism" when working in integr
  <br> </br>
 
  <h2> 🧱 Prometheus Architecture </h2>
+ 
+ ![ScreenShot](architecture.jpeg)  
 
+ Main Components of Prometheus
+
+ <ol>🧊 Data Retrival Worker </ol>
+ <ol>🧊 Time series Database </ol>
+ <ol>🧊 PromQL Queries </ol>
+ <ol> 🪄  Web UI  </ol>
+
+ <h3><strong> <ol>🟢 Data Retrival Worker : Is responsible for pulling all the <kbd> metrics /data </kbd> from resources like <kbd> Server , Application </kbd> </ol>
+              <ol>🟢 Time Storage Database :  For storing all data that is gathered by Data Retrival Worker </ol>
+              <ol>🟢 Prom-QL queries : All the queries that are fired on database (TSW) </ol>
+              <ol>🟢 WebUi  : For showcasing the results from all datasources like <kbd>Grafana / etc</kbd></strong></h3></ol>
  
 
   
